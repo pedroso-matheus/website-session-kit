@@ -1,0 +1,35 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Lock files (opcional para libs públicas)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vite / Dev cache
+.vite/
+.cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Environment variables (se usar)
+.env
+.env.local
+.env.*.local
