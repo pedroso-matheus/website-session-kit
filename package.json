@@ -1,6 +1,6 @@
 {
   "name": "website-session-kit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A modular and extensible session management toolkit for modern websites.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
