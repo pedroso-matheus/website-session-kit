@@ -1,1 +1,1 @@
-export { SessionExample } from './components/SessionExample';
+export { default as LpMainContainer } from './containers/LpMainContainer';
