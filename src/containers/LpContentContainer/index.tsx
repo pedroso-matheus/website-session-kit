@@ -43,7 +43,7 @@ const LpContentContainer = ({
   children,
   title,
 
-  paddingY = 'py-[3em]',
+  paddingY = 'py-5',
   paddingX = 'px-4',
   paddingSmX = 'md:px-[15%] sm:px-[10%]',
   spacingY = 'space-y-5',
