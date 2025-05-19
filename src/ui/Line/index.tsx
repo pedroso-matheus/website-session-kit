@@ -7,9 +7,9 @@ interface Props {
     margins?: string
 }
 
-const highlightColor = "bg-[#e16a3d]";
+const defaultColor = "bg-[#e16a3d]";
 
-const Line = ({ margins="mt-3 mb-4", width="w-[45px]", height="h-[2px]", color=highlightColor }: Props) => {
+const Line = ({ margins="mt-3 mb-4", width="w-[45px]", height="h-[2px]", color=defaultColor }: Props) => {
 
     return (
         <div className={` ${margins} ${width} ${height} ${color}`} />
